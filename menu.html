@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+h3 {
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+body {
+  background-color:#E7E9EB;
+}
+#myDIV {
+  height:300px;
+  background-color:#FFFFFF;
+}
+#blueDIV {
+  position:relative;
+  width:100px;
+  padding:10px;
+  background-color:lightblue;
+  transform: skew(20deg,20deg);
+}
+</style>
+</head>
+<body>
+
+<h3>CSS Animation</h3>
+
+<div></div>
+
+<p><b>Note:</b> When an animation is finished, it goes back to its original style.</p>
+
+
+</body>
+</html>

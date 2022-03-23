@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        table, th, td {
+            border: 1px solid black;
+            border-width: thin;
+            border-color: blue;
+            width: 60ppx;
+            height: 60px;
+          
+            
+          }
+          
+          th, td {
+            padding: 10px;
+          }
+          th{
+              background-image: linear-gradient(red,green);
+              color: white;
+          }
+          td{
+              background-image: linear-gradient(blue,green,white);
+              color: white;
+          }
+          </style>
+        <title></title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>header</th>
+                <th>header</th>
+                <th>header</th>
+                <th>header</th>
+            </tr>
+            <tr>
+                <td rowspan="4">you can span down</td>
+                <td colspan="3">you can span across</td>
+                </tr>
+                <tr>
+                    <td colspan="2">it's like a puzzle</td>
+                    <td rowspan="3">over here</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">this way</td>
+                    <td>that way</td>
+                </tr>
+                <tr>
+                    <td>where am i</td>
+                </tr>
+        </table>
+    </body>

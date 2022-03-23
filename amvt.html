@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            @media only screen and (max-width:600px) {
+                .body{
+                background-image: linear-gradient(skyblue,red);
+                
+                }
+            }
+
+                
+            
+            
+         
+            .container{
+                background-image: linear-gradient(skyblue,red);
+                width: 40vw;
+                height: 100vh;
+                position: relative;
+
+
+            }
+            .big{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+            .lin{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+            /* .you{
+                margin-right: 10px;
+            }
+            .you1{
+                margin-left: 10px;
+            }
+            .jip{
+                margin-right: 70px; */
+            
+         label,input{
+             margin: 15px auto;
+             
+         }
+         label{
+             margin-right: 40px;
+             
+         }
+         /* .kig{
+             margin-left: 20px;
+         }
+         .kid{
+             margin-right: 30px;
+         }
+         .one{
+             margin-left: 35px;
+         } */
+
+
+        </style>
+
+        <title>Amaravathi</title>
+    </head>
+
+         
+        <form action="/action_page.php" target="_blank">
+
+        
+        <div class="container" style="text-align: center;color: black;">
+            <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-secondar">
+                <a class="navbar-brand" href="#"> <img src="amvt.jpg" width="30" height="30"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <!-- <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="active" style="font-size: 20px;" href="#">Amaravathi innovations<span class="sr-only">(current)</span></a>
+                    <a class="nav-right" href="#"><i class="bi bi-box-arrow-in-left"></i></a>
+                    
+            
+                  </div>
+                </div>
+              </nav> -->
+                     
+                    
+                    
+                    
+                   <header style="background-color: chocolate; width: 38vw; height: 9vh;">
+                       <div class="row">
+                           <div class="col-sm-4">
+                    <img src="amvt.jpg" width="30" height="30">
+                           </div>
+                    <div class="col-sm-4">
+                    <p>Amaravathi innovations</p></div>
+                    <div class="col-sm-4"> 
+
+                    <img src="vector-illustration-isolated-white-background-login-button-icon-126999949.jpg" width="30" height="30"/>
+                    </div>
+                       </div>
+
+                    
+
+
+                   </header> <br/><br/>
+                    
+                    
+                    
+                    
+        
+               
+            
+        
+             <div class="row">
+                 <div class="col-1 col-sm-1 col-md-1">
+                 <img src="imge2.jpg" width="60px" height="60px" style="border-radius: 25px;"/>
+                 </div>
+             <div class="col-11 col-sm-11 col-md-11">
+            <label class="you1" for="fname">Name:</label>
+            <input class="jip" type="text" id="fname" name="fname" placeholder="enter your Name" value="ramatulasi" autofocu><br><br>
+        
+             </div> 
+             </div>
+             
+           <tr>
+               <td>
+             <label class="you" for="phone2">phone:</label>
+             </td>
+            <td>
+            <input type="text" name="phone" id="phone2" placeholder="Phone number" pattern="[1-9]{1}[0-9]{9}">  <br/><br/>
+            </td>
+            </tr>
+            <tr>
+                <td>
+            <label class="lim" for="email">Email:</label>
+            </td>
+            <td>
+
+            <input class="one" type="email" id="email" name="email" placeholder="enter your email"><br><br/>
+            </td>
+            </tr>
+            <tr>
+                <td>
+            <label class="kig" for="pwd">Password:</label>
+            </td>
+            <td>
+            <input type="password" id="pwd" name="pwd" minlength="8" placeholder="enter your password"><br><br>
+            </td></tr>
+             <tr>
+                 <td>
+            <label class="kid" for="date1">date:</label>
+            </td>
+            <td>
+            <input type="date" id="date1" name="date"><br><br>
+            </td></tr>
+            <tr><td>
+
+            <label for="qua">Qualification</label>
+            </td>
+            <td>
+
+            <select name="quali" id="qua">
+            <option value="SCC">SCC</option>
+            <option value="inter">INTER</option>
+            <option value="b-tech" id="btes">B-tech</option>
+            <option value="m.tech">M.tech<sub><option value="pg">pg</option></sub></option>
+            </select><br/><br/>
+            </td></tr>
+            
+           <tr>
+               <td>
+           <label>Gender:</label>
+           </td>
+           <td>
+            <input type="radio" id="new1" name="gender" value="female">
+            <label for="new1">female</label>
+            <input type="radio" id="new2" name="gender" value="male">
+            <label for="new2">male</label><br>
+            </td>
+            </tr>
+            <div class="d-flex flex-column justify-content-end">
+            <tr>
+                <td>
+            <label for="adde">Description:</label><br/>
+                </td>
+                <td>
+            <textarea rows="3" cols="30" name="adde" id="adde"></textarea><br><br>
+             </td>
+             </tr>
+            </div>
+            <input type="submit" value="submit">
+        </div>
+
+        </form>
+      
+            
+
+            
+            
+            
+    
+
+            
+
+        
+            
+
+    </body>
+    </html>
+
+           
+          
